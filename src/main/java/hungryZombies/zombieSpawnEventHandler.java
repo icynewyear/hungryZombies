@@ -28,7 +28,6 @@ public class zombieSpawnEventHandler {
 			}
 			if (mob != null) 
 			{
-				System.out.println("Added");
 				mob.tasks.addTask(4, new EntityAIAttackOnCollide(mob, EntityCow.class, 1.0D, true));
 				mob.tasks.addTask(4, new EntityAIAttackOnCollide(mob, EntitySheep.class, 1.0D, true));
 				mob.tasks.addTask(4, new EntityAIAttackOnCollide(mob, EntityPig.class, 1.0D, true));
