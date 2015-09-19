@@ -1,0 +1,21 @@
+[
+{
+  "modid": "hungryZombies",
+  "name": "Hungry Zombies",
+  "description": "Zombies attack wildlife",
+  "version": "1.0.0",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Icynewyear"
+    
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
