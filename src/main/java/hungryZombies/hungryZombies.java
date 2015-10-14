@@ -14,7 +14,7 @@ import hungryZombies.hungryZombiesConfig;
 
 
 
-@Mod(modid = "hungryZombies", name = "Hungry Zombies", version = "1.1.0", acceptableRemoteVersions = "*")
+@Mod(modid = "hungryZombies", name = "Hungry Zombies", version = "1.2.0", acceptableRemoteVersions = "*")
 public class hungryZombies {
 	public static hungryZombiesConfig config;
 	

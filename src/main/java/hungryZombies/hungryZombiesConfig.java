@@ -8,6 +8,7 @@ public class hungryZombiesConfig {
 	private static hungryZombiesConfig instance = null;
 	public static String ZOMBIE_GENERAL = "General";
 	public static boolean ZOMBIESEATFOOD;
+	public static int ZOMBIEHUNTDISTANCE;
 	public static Configuration config;
 	
 	private hungryZombiesConfig(File configFile)
@@ -37,9 +38,8 @@ public class hungryZombiesConfig {
 	
 	
 	private static void Configs() {
-		System.out.println("Config enter");
 		ZOMBIESEATFOOD = config.get(ZOMBIE_GENERAL, "eat off ground", false,"Zombies eat food off the ground").getBoolean();
-		
+		ZOMBIEHUNTDISTANCE = config.get(ZOMBIE_GENERAL, "distance to detect", 32, "Zombie hunting distance").getInt();
 	}
 	
 }

@@ -28,9 +28,9 @@ public class zombieSpawnEventHandler {
 				mob.tasks.addTask(4, new EntityAIAttackOnCollide(mob, EntityCow.class, 1.0D, true));
 				mob.tasks.addTask(4, new EntityAIAttackOnCollide(mob, EntitySheep.class, 1.0D, true));
 				mob.tasks.addTask(4, new EntityAIAttackOnCollide(mob, EntityPig.class, 1.0D, true));
-				mob.targetTasks.addTask(2, new EntityAINearestAttackableTarget(mob, EntityCow.class, 0, false));
-				mob.targetTasks.addTask(2, new EntityAINearestAttackableTarget(mob, EntitySheep.class, 0, false));
-				mob.targetTasks.addTask(2, new EntityAINearestAttackableTarget(mob, EntityPig.class, 0, false));
+				mob.targetTasks.addTask(2, new EntityAICustomNearestAttackableTarget(mob, EntityCow.class, 0, false));
+				mob.targetTasks.addTask(2, new EntityAICustomNearestAttackableTarget(mob, EntitySheep.class, 0, false));
+				mob.targetTasks.addTask(2, new EntityAICustomNearestAttackableTarget(mob, EntityPig.class, 0, false));
 
 			}
 		}
